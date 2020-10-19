@@ -4,11 +4,11 @@
 int main()
 {
 	int a = 0, b = 0;
-	char opp = '\0';
+	char op = '\0';
 	printf("Enter the expression: ");
-	scanf("%d %c %d", &a, &opp, &b);
+	scanf("%d %c %d", &a, &op, &b);
 
-	switch(opp)
+	switch(op)
 	{
 		case '+': iadd(a, b);
 			  break;
