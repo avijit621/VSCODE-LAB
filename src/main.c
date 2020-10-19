@@ -10,20 +10,21 @@ int main()
 
 	switch(op)
 	{
-		case '+': add(a, b);
-			  break;
-		case '-': isub(a, b);
-			  break;
-		case '*': imul(a, b);
-			  break;
-		case '/': idiv(a, b);
-			  break;
-		case '%': imod(a, b);
-			  break;
-		default:
+		              case '+': iadd(a, b);
+		              break;
+		             case '-': isub(a, b);
+		              break;
+		             case '*': imul(a, b);
+		              break;
+		             case '/': idiv(a, b);
+		              break;
+		             case '%': imod(a, b);
+		              break;
+		             cefault:
 			  print_exit("Unrecognized Operation");
 	}
 
 	printf("Result of the expression is: %d\n", iresult);
 	return 0;
 }
+// addig line in vscodde

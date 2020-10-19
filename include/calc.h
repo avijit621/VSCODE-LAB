@@ -5,7 +5,7 @@ int iresult;
 
     void isub(int a, int b);
     void imul(int a, int b);
-    void add(int a, int b);
+    void iadd(int a, int b);
     void idiv(int a, int b);
     void imod(int a, int b);
     
