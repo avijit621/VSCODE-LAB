@@ -10,7 +10,7 @@ int main()
 
 	switch(op)
 	{
-		case '+': iadd(a, b);
+		case '+': add(a, b);
 			  break;
 		case '-': isub(a, b);
 			  break;
